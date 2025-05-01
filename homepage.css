@@ -109,47 +109,47 @@ nav a{
 
 .about_text1{
     color: #A58B71;
-    font-size: 29px;
+    font-size: 27px;
     position: relative;
     bottom: -50px;
-    left: 60px;
+    left: 50px;
 }
 
 .about_text2{
     color: #A58B71;
-    font-size: 29px;
+    font-size: 27px;
     position: relative;
-    bottom: 533px;
-    left: 60px;
+    bottom: -35px;
+    left: 50px;
 }
 
 .about_text3{
     color: #A58B71;
-    font-size: 29px;
+    font-size: 27px;
     position: relative;
-    bottom: 546px;
-    left: 60px;
+    bottom: -23px;
+    left: 50px;
 }
 
 .about_text4{
     color: #A58B71;
-    font-size: 29px;
+    font-size: 27px;
     position: relative;
-    bottom: 559px;
-    left: 60px;
+    bottom: -12px;
+    left: 50px;
 }
 
 .about_text5{
     color: #A58B71;
-    font-size: 29px;
+    font-size: 27px;
     position: relative;
-    bottom: 576px;
-    left: 60px;
+    bottom: 0px;
+    left: 50px;
 }
 
 .background{
     background-color: #F5E9DA;
     position: relative;
     bottom: 614px;
-    height: 440px;
+    height: 400px;
 }
