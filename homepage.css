@@ -1,0 +1,155 @@
+body{
+    font-family: sans-serif;
+}
+
+nav{
+    background-color: #FFF8F0;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo{
+    margin-top: 15px;
+    margin-left: 45px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #A58B71;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.find{
+    border: 3px solid #F5E9DA;
+    border-radius: 10px;
+    width: 310px;
+    height: 40px;
+    margin-left: 110px;
+    margin-top: 20px;
+    color: #A58B71;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-left: 10px;
+
+}
+
+.find_button{
+    background-color: #F5E9DA;
+    width: 115px;
+    height: 45px;
+    border-radius: 25px;
+    color: #A58B71;
+    font-size: 22px;
+    border: 1px solid #F5E9DA;
+    margin-top: 27px;
+    margin-left: 15px;
+}
+
+.corb_button{
+    background-color: #926239;
+    width: 130px;
+    height: 45px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-size: 23px;
+    border: 1px solid #F5E9DA;
+    padding-bottom: 10px;
+    margin-top: 27px;
+    margin-left: 180px;
+}
+
+.corb_button img{
+    width: 30px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.picture_home{
+    width: 100%;
+    height: 420px;
+}
+
+.name{
+    font-size: 90px;
+    position: relative;
+    bottom: 330px;
+    color: #FFFFFF;
+    left: 110px;
+}
+
+.line{
+    position: relative;
+    font-size: 80px;
+    bottom: 530px;
+    left: 535px;
+    color: #FFFFFF;
+
+}
+
+.text{
+    font-size: 48px;
+    position: relative;
+    bottom: 710px;
+    left: 640px;
+    color: #FFFFFF;
+}
+
+.about{
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    bottom: -20px;
+    color: #A58B71;
+}
+
+.about_text1{
+    color: #A58B71;
+    font-size: 29px;
+    position: relative;
+    bottom: -50px;
+    left: 60px;
+}
+
+.about_text2{
+    color: #A58B71;
+    font-size: 29px;
+    position: relative;
+    bottom: 533px;
+    left: 60px;
+}
+
+.about_text3{
+    color: #A58B71;
+    font-size: 29px;
+    position: relative;
+    bottom: 546px;
+    left: 60px;
+}
+
+.about_text4{
+    color: #A58B71;
+    font-size: 29px;
+    position: relative;
+    bottom: 559px;
+    left: 60px;
+}
+
+.about_text5{
+    color: #A58B71;
+    font-size: 29px;
+    position: relative;
+    bottom: 576px;
+    left: 60px;
+}
+
+.background{
+    background-color: #F5E9DA;
+    position: relative;
+    bottom: 614px;
+    height: 440px;
+}
