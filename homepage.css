@@ -1,9 +1,10 @@
 body{
     font-family: sans-serif;
+    background-color: #FFF8F0;
 }
 
 nav{
-    background-color: #FFF8F0;
+    background-color: #F5E9DA;
     width: 100%;
     height: 110px;
     display: flex;
@@ -25,7 +26,7 @@ nav a{
 }
 
 .find{
-    border: 3px solid #F5E9DA;
+    border: 3px solid #FFF8F0;
     border-radius: 10px;
     width: 310px;
     height: 40px;
@@ -39,13 +40,13 @@ nav a{
 }
 
 .find_button{
-    background-color: #F5E9DA;
+    background-color: #FFF8F0;
     width: 115px;
     height: 45px;
     border-radius: 25px;
     color: #A58B71;
     font-size: 22px;
-    border: 1px solid #F5E9DA;
+    border: 1px solid #FFF8F0;
     margin-top: 27px;
     margin-left: 15px;
 }
@@ -103,7 +104,7 @@ nav a{
     text-align: center;
     font-size: 40px;
     position: relative;
-    bottom: -20px;
+    bottom: 580px;
     color: #A58B71;
 }
 
@@ -111,7 +112,7 @@ nav a{
     color: #A58B71;
     font-size: 27px;
     position: relative;
-    bottom: -50px;
+    bottom: 540px;
     left: 50px;
 }
 
@@ -119,7 +120,7 @@ nav a{
     color: #A58B71;
     font-size: 27px;
     position: relative;
-    bottom: -35px;
+    bottom: 550px;
     left: 50px;
 }
 
@@ -127,7 +128,7 @@ nav a{
     color: #A58B71;
     font-size: 27px;
     position: relative;
-    bottom: -23px;
+    bottom: 555px;
     left: 50px;
 }
 
@@ -135,7 +136,7 @@ nav a{
     color: #A58B71;
     font-size: 27px;
     position: relative;
-    bottom: -12px;
+    bottom: 560px;
     left: 50px;
 }
 
@@ -143,20 +144,100 @@ nav a{
     color: #A58B71;
     font-size: 27px;
     position: relative;
-    bottom: 0px;
+    bottom: 565px;
     left: 50px;
 }
 
-.background{
-    background-color: #F5E9DA;
+.liste{
+    text-align: center;
+    font-size: 40px;
+    color: #A58B71;
     position: relative;
-    bottom: 614px;
-    height: 400px;
+    bottom: 530px;
 }
 
-.background2{
-    background-color: #FFF8F0;
+.backery_things{
+    display: flex;
+    justify-content: space-around;
     position: relative;
-    bottom: 635px;
-    height: 400px;
+    bottom: 450px;
+    right: 90px;
+}
+
+.stiker1{
+    height: 220px;
+    margin-left: 180px;
+    margin-top: 55px;
+    border: 1px solid #926239;
+    border-radius: 10px;
+}
+
+.stiker2{
+    height: 220px;
+    margin-left: 145px;
+    margin-top: 55px;
+}
+
+.stiker3{
+    height: 220px;
+    margin-left: 140px;
+    margin-top: 55px;
+}
+
+.about_us{
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    bottom: -20px;
+    color: #A58B71;
+}
+
+.history{
+    color: #A58B71; 
+    font-size: 25px;
+    text-align: center; 
+    padding-top: 35px;
+}
+
+.meinung{
+    font-size: 40px;
+    color: #A58B71;
+    text-align: center;
+
+}
+
+.name_surname1{
+    color: #A58B71;
+    border: 1px solid #F5E9DA;
+    background-color: #F5E9DA;
+    width: 330px;
+    height: 220px;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+}
+
+.name_surname2{
+    color: #A58B71;
+    border: 1px solid #F5E9DA;
+    background-color: #F5E9DA;
+    width: 330px;
+    height: 220px;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+}
+
+.name_surname3{
+    color: #A58B71;
+    border: 1px solid #F5E9DA;
+    background-color: #F5E9DA;
+    width: 330px;
+    height: 220px;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
 }
