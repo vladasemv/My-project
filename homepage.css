@@ -109,7 +109,7 @@ nav a{
 }
 
 .about_text1{
-    color: #A58B71;
+    color: #CBAE92;
     font-size: 27px;
     position: relative;
     bottom: 540px;
@@ -117,7 +117,7 @@ nav a{
 }
 
 .about_text2{
-    color: #A58B71;
+    color: #CBAE92;
     font-size: 27px;
     position: relative;
     bottom: 550px;
@@ -125,7 +125,7 @@ nav a{
 }
 
 .about_text3{
-    color: #A58B71;
+    color: #CBAE92;
     font-size: 27px;
     position: relative;
     bottom: 555px;
@@ -133,7 +133,7 @@ nav a{
 }
 
 .about_text4{
-    color: #A58B71;
+    color: #CBAE92;
     font-size: 27px;
     position: relative;
     bottom: 560px;
@@ -141,7 +141,7 @@ nav a{
 }
 
 .about_text5{
-    color: #A58B71;
+    color: #CBAE92;
     font-size: 27px;
     position: relative;
     bottom: 565px;
@@ -160,84 +160,244 @@ nav a{
     display: flex;
     justify-content: space-around;
     position: relative;
-    bottom: 450px;
-    right: 90px;
+    bottom: 470px;
 }
 
 .stiker1{
-    height: 220px;
-    margin-left: 180px;
-    margin-top: 55px;
-    border: 1px solid #926239;
+    height: 160px;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+.cart1{
+    border: 2px solid #926239;
     border-radius: 10px;
+    width: 264px;
+    height: 261px;
+    position: relative;
+    left: 50px;
+    box-shadow: 8px 8px 4px 0px rgb(182, 182, 182);
+
+}
+
+.cart1_bread{
+    font-size: 25px;
+    color: #CBAE92;
+    text-align: center;
+    padding-top: 5px;
 }
 
 .stiker2{
-    height: 220px;
-    margin-left: 145px;
-    margin-top: 55px;
+    height: 145px;
+    padding-top: 17px;
+    padding-left: 22px;
+}
+
+.cart2{
+    border: 2px solid #926239;
+    border-radius: 10px;
+    width: 264px;
+    height: 261px;
+    box-shadow: 8px 8px 4px 0px rgb(182, 182, 182);
+}
+
+.cart2_sourtige{
+    font-size: 25px;
+    color: #CBAE92;
+    text-align: center;
+    padding-top: 17px;
 }
 
 .stiker3{
-    height: 220px;
-    margin-left: 140px;
-    margin-top: 55px;
+    height: 160px;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+
+.cart3{
+    border: 2px solid #926239;
+    border-radius: 10px;
+    width: 264px;
+    height: 261px;
+    position: relative;
+    right: 50px;
+    box-shadow: 8px 8px 4px 0px rgb(182, 182, 182);
+}
+
+.cart3_acssesorise{
+    font-size: 25px;
+    color: #CBAE92;
+    text-align: center;
+    padding-top: 5px;
 }
 
 .about_us{
     text-align: center;
     font-size: 40px;
     position: relative;
-    bottom: -20px;
+    bottom: 390px;
     color: #A58B71;
 }
 
 .history{
-    color: #A58B71; 
-    font-size: 25px;
+    color: #CBAE92; 
+    font-size: 27px;
     text-align: center; 
-    padding-top: 35px;
+    position: relative;
+    bottom: 365px;
 }
 
-.meinung{
+.meinung_name{
     font-size: 40px;
     color: #A58B71;
     text-align: center;
+    position: relative;
+    bottom: 300px;
 
+}
+
+.meinung{
+    border: 1px solid #F5E9DA;
+    background-color: #F5E9DA;
+    width: 338px;
+    height: 196px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 4px 0px rgb(182, 182, 182);
+}
+
+.meinungs_carts{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 260px;
 }
 
 .name_surname1{
     color: #A58B71;
-    border: 1px solid #F5E9DA;
-    background-color: #F5E9DA;
-    width: 330px;
-    height: 220px;
-    font-size: 20px;
-    border-radius: 10px;
+    font-size: 23px;
     position: relative;
-    top: 100px;
+    left: 15px;
+}
+
+.stars1{
+    position: relative;
+    bottom: 15px;
+    left: 15px;
+}
+
+.meinung1{
+    color: #CBAE92;
+    font-size: 20px;
+    position: relative;
+    left: 15px;
+    bottom: 22px;
 }
 
 .name_surname2{
     color: #A58B71;
-    border: 1px solid #F5E9DA;
-    background-color: #F5E9DA;
-    width: 330px;
-    height: 220px;
-    font-size: 20px;
-    border-radius: 10px;
+    font-size: 23px;
     position: relative;
-    top: 100px;
+    left: 15px;
+}
+
+.meinung2{
+    color: #CBAE92;
+    font-size: 20px;
+    position: relative;
+    left: 15px;
+    bottom: 22px;
 }
 
 .name_surname3{
     color: #A58B71;
+    font-size: 23px;
+    position: relative;
+    left: 15px;
+}
+
+.meinung3{
+    color: #CBAE92;
+    font-size: 20px;
+    position: relative;
+    left: 15px;
+    bottom: 22px;
+}
+
+.new_name{
+    font-size: 30px;
+    color: #A58B71;
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+}
+
+.new_meinung{
     border: 1px solid #F5E9DA;
     background-color: #F5E9DA;
-    width: 330px;
-    height: 220px;
-    font-size: 20px;
+    width: 338px;
+    height: 196px;
     border-radius: 10px;
+    box-shadow: 6px 6px 4px 0px rgb(182, 182, 182);
     position: relative;
-    top: 100px;
+    bottom: 150px;
+    left: 540px;
+}
+
+.new_name_surnam{
+    color: #A58B71;
+    font-size: 23px;
+    position: relative;
+    left: 15px;
+}
+
+.tell_about{
+    color: #CBAE92;
+    font-size: 20px;
+    position: relative;
+    left: 15px;
+    bottom: 22px;
+}
+
+footer{
+    background-color: #F5E9DA;
+    width: 100%;
+    height: 220px;
+}
+
+.logo_footer{
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+
+.open_time_name{
+    color: #A58B71;
+    font-size: 22px;
+    position: relative;
+    bottom: 55px;
+    left: 250px;
+}
+
+.ours_bakerys_name{
+    color: #A58B71;
+    font-size: 22px;
+    position: relative;
+    bottom: 212px;
+    left: 400px;
+}
+
+.ours_social_name{
+    color: #A58B71;
+    font-size: 22px;
+    position: relative;
+    bottom: 367px;
+    left: 550px;
+}
+
+.facebook{
+    width: 50px;
+}
+
+.instagram{
+    width: 50px;
 }
