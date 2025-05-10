@@ -362,42 +362,112 @@ footer{
     background-color: #F5E9DA;
     width: 100%;
     height: 220px;
+    position: relative;
+    top: 400px;
 }
 
 .logo_footer{
     position: relative;
     top: 60px;
     left: 20px;
+    margin-left: 30px;
 }
 
 .open_time_name{
     color: #A58B71;
     font-size: 22px;
     position: relative;
-    bottom: 55px;
-    left: 400px;
+    bottom: 65px;
+    left: 350px;
+}
+
+.weekdays{
+    color: #CBAE92;
+    font-size: 19px;
+    position: relative;
+    left: 345px;
+    bottom: 65px;
+}
+
+.weekends{
+    color: #CBAE92;
+    font-size: 19px;
+    position: relative;
+    left: 345px;
+    bottom: 75px;
+}
+
+.holiday_days{
+    color: #CBAE92;
+    font-size: 19px;
+    position: relative;
+    left: 280px;
+    bottom: 85px;
 }
 
 .ours_bakerys_name{
     color: #A58B71;
     font-size: 22px;
     position: relative;
-    bottom: 212px;
-    left: 550px;
+    bottom: 240px;
+    left: 725px;
+}
+
+.adress1{
+    color: #CBAE92;
+    font-size: 19px;
+    position: relative;
+    left: 670px;
+    bottom: 248px;
+}
+
+.adress2{
+    color: #CBAE92;
+    font-size: 19px;
+    position: relative;
+    left: 670px;
+    bottom: 265px;
+}
+
+.adress3{
+    color: #CBAE92;
+    font-size: 19px;
+    position: relative;
+    left: 670px;
+    bottom: 279px;
+}
+
+
+.location1{
+    width: 18px;
+}
+
+.location2{
+    width: 18px;
+}
+
+.location3{
+    width: 18px;
 }
 
 .ours_social_name{
     color: #A58B71;
     font-size: 22px;
     position: relative;
-    bottom: 367px;
-    left: 800px;
+    bottom: 435px;
+    left: 1060px;
 }
 
 .facebook{
-    width: 50px;
+    width: 40px;
+    position: relative;
+    left: 1090px;
+    bottom: 430px;
 }
 
 .instagram{
-    width: 50px;
+    width: 40px;
+    position: relative;
+    left: 1095px;
+    bottom: 430px;
 }
