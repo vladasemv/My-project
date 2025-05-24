@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="homepage.css">
+        <link rel="stylesheet" type="text/css" href="./css/homepage.css">
         <title>CHLIEB</title>
     </head>
     <body>
@@ -15,8 +15,9 @@
                 <a href="">Відгуки</a>
                 <p class="find">Пошук</p> 
                 <button class="find_button">Знайти</button>
-                <button class="corb_button">Кошик<img src="shopping-cart.webp"/></button>
-            </nav>
+             <div class="cart-container-button" onclick="goToCart()">
+                        <button class="corb_button">Кошик<span class="cart-counter">0</span><img src="shopping_corb.webp"/></button>
+                    </div>            </nav>
         </header>
         <main>
             <img class="picture_home" src="home_picture.jpg"/>
@@ -33,15 +34,15 @@
             </div>
             <h1 class="liste">Випічка та товари</h1>
             <div class="backery_things">
-                <div class="cart1">
+                <div class="cart1" onclick="goToThings()">
                     <img class="stiker1" src="sticker1.webp"/>
                     <p class="cart1_bread">Хліб</p>
                 </div>
-                <div class="cart2">
+                <div class="cart2"  onclick="goToThings()">
                     <img class="stiker2" src="sticker4.webp"/>
                     <p class="cart2_sourtige">Закваска</p>
                 </div>
-                <div class="cart3"> 
+                <div class="cart3"  onclick="goToThings()"> 
                     <img class="stiker3" src="sticker6.webp"/>
                     <p class="cart3_acssesorise">Аксесуари</p>
                 </div>
@@ -124,5 +125,12 @@
                 <img class="instagram" src="instagram.webp"/>
               </div>
         </footer>
-    </body>
+
+<!-- <script>
+  function goToThings() {
+    window.location.href = 'things_page.html';
+  }
+</script>   -->
+<script src = "script.js"></script>
+  </body>
 </html>
