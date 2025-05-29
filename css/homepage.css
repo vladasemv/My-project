@@ -25,13 +25,13 @@ nav a{
     margin-left: 25px;
 }
 
-.find{
+.form-control{
     border: 3px solid #FFF8F0;
     border-radius: 10px;
     width: 310px;
-    height: 40px;
+    height: 50px;
     margin-left: 110px;
-    margin-top: 20px;
+    margin-top: 30px;
     color: #A58B71;
     font-size: 18px;
     padding-top: 15px;
@@ -39,7 +39,7 @@ nav a{
 
 }
 
-.find_button{
+.btn-search{
     background-color: #FFF8F0;
     width: 115px;
     height: 45px;
@@ -47,27 +47,48 @@ nav a{
     color: #A58B71;
     font-size: 22px;
     border: 1px solid #FFF8F0;
-    margin-top: 27px;
+    margin-top: 5px;
     margin-left: 15px;
 }
 
 .corb_button{
     background-color: #926239;
-    width: 130px;
+    width: 135px;
     height: 45px;
     border-radius: 25px;
     color: #FFFFFF;
     font-size: 23px;
-    border: 1px solid #F5E9DA;
     padding-bottom: 10px;
-    margin-top: 27px;
-    margin-left: 180px;
+    margin-top: 38px;
+    margin-left: 160px;
+    border: 3px solid #6B492B;
+    padding-top: 7px;
+    padding-right: 12px;
 }
 
 .corb_button img{
-    width: 30px;
-    padding-left: 5px;
+    width: 25px;
+    position: relative;
+    bottom: 27px;
+    left: 38px;
+}
+
+.cart-counter{
+    font-size: 21px;
+    background-color: #FFFFFF;
+    border: 3px solid #CFCFCF;
+    height: 30px;
+    width: 20px;
+    position: relative;
+    border-radius: 25px;
+    padding-left: 7px;
     padding-top: 5px;
+    color: #926239;
+    right: 17px;
+    bottom: 20px;
+    left: 30px;
+    padding-right: 7px;
+    padding-bottom: 2px;
 }
 
 .picture_home{
@@ -156,6 +177,11 @@ nav a{
     bottom: 530px;
 }
 
+.liste a{
+    text-decoration: none;
+    color: #A58B71;
+}
+
 .backery_things{
     display: flex;
     justify-content: space-around;
@@ -239,6 +265,11 @@ nav a{
     color: #A58B71;
 }
 
+.about_us a{
+    text-decoration: none;
+    color: #A58B71;
+}
+
 .history{
     color: #CBAE92; 
     font-size: 27px;
@@ -254,6 +285,11 @@ nav a{
     position: relative;
     bottom: 300px;
 
+}
+
+.meinung_name a{
+    text-decoration: none;
+    color: #A58B71;
 }
 
 .meinung{
@@ -286,36 +322,6 @@ nav a{
 }
 
 .meinung1{
-    color: #CBAE92;
-    font-size: 20px;
-    position: relative;
-    left: 15px;
-    bottom: 22px;
-}
-
-.name_surname2{
-    color: #A58B71;
-    font-size: 23px;
-    position: relative;
-    left: 15px;
-}
-
-.meinung2{
-    color: #CBAE92;
-    font-size: 20px;
-    position: relative;
-    left: 15px;
-    bottom: 22px;
-}
-
-.name_surname3{
-    color: #A58B71;
-    font-size: 23px;
-    position: relative;
-    left: 15px;
-}
-
-.meinung3{
     color: #CBAE92;
     font-size: 20px;
     position: relative;
@@ -363,7 +369,7 @@ footer{
     width: 100%;
     height: 220px;
     position: relative;
-    top: 400px;
+    bottom: 30px;
 }
 
 .logo_footer{
