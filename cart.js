@@ -11,17 +11,17 @@ cartItems.forEach((item) => {
   let cartItemHTML = `<div class="card mb-3" style="max-width: 540px;">
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="${item.imgSrc}" class="img-fluid rounded-start" alt="...">
+      <img src="${item.imgSrc}" class="img-fluid rounded-start" alt="..." style="width: 160px; position: relative; top: 100px;">
     </div>
     <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">${item.title}</h5>
-        <p class="card-text">${item.desc}</p>
-        <p class="card-text"><small class="text-muted" data-price="${item.price}">${item.price}</small></p>
+      <div class="card-body" style="background-color: #F5E9DA; width: 650px; height: 280px; border-radius: 20px; position: relative; left: 30px;">
+        <h5 class="card-title" style="color: #A58B71; font-size: 27px; position: relative; left: 240px; top: 60px;">${item.title}</h5>
+        <p class="card-text" style="color: #A58B71; font-size: 17px; position: relative; left: 240px; top: 25px;">${item.desc}</p>
+        <p class="card-text" style=" color: #CBAE92; font-size: 23px; position: relative; left: 240px; top: 20px;"><small class="text-muted" data-price="${item.price}">${item.price}</small></p>
        <div class="input-group">
-        <input type="text" class="form-control" placeholder="Amount" value="1">
-        <button class="btn btn-outline-secondary" type="button" data-action = "minus">-</button>
-        <button class="btn btn-outline-secondary" type="button" data-action = "plus">+</button>
+        <input type="text" class="form-control" style=" position: relative; left: 130px;" placeholder="Amount" value="1">
+        <button class="btn btn-outline-secondary" style=" position: relative; bottom: 10px; left: 130px; height: 50px; background-color: #FFFFFF; color: #A58B71; border: 3px solid #FFF8F0; width: 30px; border-radius: 20px;" type="button" data-action = "minus">-</button>
+        <button class="btn btn-outline-secondary" style=" position: relative; bottom: 10px; left: 130px; height: 50px; background-color: #FFFFFF; color: #A58B71; border: 3px solid #FFF8F0; width: 30px; border-radius: 20px;" type="button" data-action = "plus">+</button>
        </div>
       </div>
     </div>
