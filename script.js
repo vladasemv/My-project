@@ -8,12 +8,16 @@ function goToCart() {
   window.location.href = "corb_page.html";
 }
 function goToHome() {
-  window.location.href = "homepage.html";
+  window.location.href = "homepage1.html";
 }
 
 function goToThings() {
   window.location.href = "things_page.html";
 }
+function goToCorb(){
+  window.location.href = "corb_page_order.html";
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   let cart_counter = document.querySelector(".cart-counter");
   cart_counter.innerHTML = localStorage.getItem("count") || 0;
